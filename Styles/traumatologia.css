@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* OYT MENU */
+.oyt-menu {
+    width: 100%;
+    height: 70px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12 11 10);
+    color: white;
+    padding: 5px 10px 5px 10px ;
+}
+.oyt-logo-clinica {
+    padding: 5px;
+    width: 20%;
+}
+.oyt-menu li a {
+    color: white;
+}
+.oyt-menu-lista-principal {
+    display: flex;
+    align-items: center;
+}
+.oyt-menu-lista-principal li {
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.oyt-menu-lista-principal li:hover {
+    background-color: rgb(70, 67, 67);
+}
+.oyt-menu-servicios {
+    position: relative;
+}
+.oyt-menu-lista-servicios {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    font-size: 11px;
+}
+.oyt-menu-lista-servicios li {
+    width: 190px;
+    transform: translate(-20px);
+    background-color: rgb(12 11 10);
+    text-align: center;
+}
+.oyt-menu-lista-servicios li:hover {
+    background-color: rgb(70, 67, 67);
+}
+.oyt-menu-servicios:hover .oyt-menu-lista-servicios {
+    display: block;
+}
+
+/* OYT MAIN */
+#oyt-main {
+    padding: 20px 0px 20px 0px;
+}
+/* OYT INTRODUCCION*/
+#oyt-titulo {
+    padding: 20px 15px 20px 15px;
+    font-size: 26px;
+    color:rgb(29, 105, 124);
+    text-align: center;   
+}
+#oyt-imagen-principal {
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    height: 200px;
+}
+#oyt-introducción {
+    padding: 20px 10px 20px 10px;
+    font-size: 15px;
+    text-align: center;  
+}
+
+/* OYT SUBESPECIALIDADES */
+.oyt-subtitulos {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#oyt-subespecialidades-lista {
+    padding: 10px 40px 20px 40px;
+    font-size: 15px;
+}
+
+/* OYT CUERPO MEDICO */
+#oyt-profesionales {
+    padding: 10px 40px 20px 40px;
+}
+.oyt-profesionales-estructura {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+.oyt-profesionales-fotos {
+    width: 40%;
+    padding-right: 10px;
+    border-radius: 150px;
+}
+.oyt-profesionales-nombres {
+    font-size: 15px;
+}
+.oyt-profesionales-especialidad {
+    font-size: 12px;
+}
+ 
+/* OYT TURNOS */
+ #oyt-turnos {
+    padding: 0px 5px 20px 5px;
+    border: solid 15px rgb(29, 105, 124);
+    margin: 0px 0px 60px 0px;
+    font-size: 12px;
+    display: grid;
+    grid-template-areas: 
+    "TurnosTitulo TurnosTitulo TurnosTitulo"
+    "TurnosImagen TurnosContenido TurnosContenido"
+    "TurnosImagen TurnosContenido TurnosContenido";
+    grid-template-columns: repeat(3, 1fr);
+}
+#oyt-turnos-titulo {
+    grid-area: TurnosTitulo;
+}
+#oyt-turnos-imagen {
+    width: 65%;
+    padding: 0px 0px 5px 10px;
+    grid-area: TurnosImagen;
+}
+#oyt-turnos-contenido {
+    grid-area: TurnosContenido;
+}
+#oyt-turnos-contenido a {
+    color: black;
+    cursor: pointer;
+}
+#oyt-turnos-contenido i {
+    padding-right: 5px;
+}
+
+ /* OYT FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #121110;
+    color: #dfd8d8;
+    padding: 20px 15px;
+    font-size: 0.9rem;
+}
+.f-logo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.f-logo img {
+    width: 60px;
+}
+.f-logo div {
+    display: flex;
+    flex-direction: column;
+}
+.f-info ul {
+    padding-left: 8px;
+    margin-top: 30px;
+}
+.f-info ul a {
+    color: #dfd8d8;
+}
+.f-info ul a li i {
+    margin-right: 10px;
+}
+.f-social ul {
+    display: flex;
+}
+.f-social ul a {
+    margin-right: 10px;
+}
+
+
+@media (min-width: 640px ) {
+    
+    /* OYT MENU */
+    .oyt-logo-clinica {
+        width: 10%;
+    }
+    .oyt-menu {
+        font-size: 17px;
+        padding-right: 20px;
+    }
+    .oyt-menu-lista-principal li {
+        padding: 10px;
+    }
+    .oyt-menu-lista-servicios {
+        font-size: 15px;
+    }
+    
+    /* OYT INTRODUCCION */
+    #oyt-titulo {
+        font-size: 34px; 
+    }
+    #oyt-imagen-principal {
+        height: 300px;
+    }
+    #oyt-introducción {
+        padding: 20px;
+        font-size: 17px;
+    }
+    
+    /* OYT SUBESPECIALIDADES */
+    .oyt-subtitulos {
+        font-size: 30px;
+    }
+    #oyt-subespecialidades-lista {
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* OYT CUERPO MEDICO */
+    #oyt-profesionales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .oyt-profesionales-nombres {
+        font-size: 17px;
+    }
+    .oyt-profesionales-especialidad {
+        font-size: 14px;
+    }
+    .oyt-profesionales-fotos {
+        width: 30%;
+    }
+    
+    /* OYT TURNOS */
+    #oyt-turnos {
+        margin: 20px 160px 80px 160px;
+    }
+    #oyt-turnos-contenido {
+        font-size: 17px;
+    }
+    .oyt-turnos-logos {
+        width: 6%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    
+    /* OYT MENU */
+    .oyt-logo-clinica {
+        width: 7%;
+    }
+    .oyt-menu {
+        font-size: 20px;
+    }
+    .oyt-menu-lista-principal li {
+        padding: 15px;
+    }
+    .oyt-menu-lista-servicios {
+        font-size: 18px;
+    }
+    
+    /* OYT INTRODUCCION */
+    #oyt-titulo {
+        font-size: 40px;
+    }
+    
+    /* OYT CUERPO MEDICO */
+    .oyt-profesionales-nombres {
+        font-size: 18px;
+    }
+    .oyt-profesionales-especialidad {
+        font-size: 15px;
+    }
+    /* OYT TURNOS */
+    #oyt-turnos {
+        margin: 20px 250px 160px 250px;
+        border: solid 20px rgb(29, 105, 124);
+    }
+    #oyt-turnos-imagen {
+        width: 55%;
+        padding: 0px 0px 30px 15px;
+    }
+}
