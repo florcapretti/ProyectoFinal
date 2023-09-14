@@ -14,8 +14,10 @@
     font-size: 13px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(12 11 10);
-    color: white;
+    /*background-color: rgb(12 11 10);
+    color: white;*/
+    background-color: whitesmoke;
+    color: black;
     padding: 5px 10px 5px 10px ;
 }
 .oyt-logo-clinica {
@@ -23,7 +25,8 @@
     width: 20%;
 }
 .oyt-menu li a {
-    color: white;
+    /*color: white;*/
+    color: black;
 }
 .oyt-menu-lista-principal {
     display: flex;
@@ -35,7 +38,8 @@
     transition: all 0.3s ease 0s;
 }
 .oyt-menu-lista-principal li:hover {
-    background-color: rgb(70, 67, 67);
+    /*background-color: rgb(70, 67, 67);*/
+    background-color: rgb(169, 222, 236);
 }
 .oyt-menu-servicios {
     position: relative;
@@ -49,11 +53,13 @@
 .oyt-menu-lista-servicios li {
     width: 190px;
     transform: translate(-20px);
-    background-color: rgb(12 11 10);
+    /*background-color: rgb(12 11 10);*/
+    background-color: whitesmoke;
     text-align: center;
 }
 .oyt-menu-lista-servicios li:hover {
-    background-color: rgb(70, 67, 67);
+    /*background-color: rgb(70, 67, 67);*/
+    background-color: rgb(169, 222, 236);
 }
 .oyt-menu-servicios:hover .oyt-menu-lista-servicios {
     display: block;
@@ -62,6 +68,7 @@
 /* OYT MAIN */
 #oyt-main {
     padding: 20px 0px 20px 0px;
+    background-color: whitesmoke;
 }
 /* OYT INTRODUCCION*/
 #oyt-titulo {
@@ -73,7 +80,7 @@
 #oyt-imagen-principal {
     padding: 5px 0px 5px 0px;
     width: 100%;
-    height: 200px;
+    height: 120px;
 }
 #oyt-introducción {
     padding: 20px 10px 20px 10px;
@@ -211,7 +218,7 @@ footer {
         font-size: 34px; 
     }
     #oyt-imagen-principal {
-        height: 300px;
+        height: 250px;
     }
     #oyt-introducción {
         padding: 20px;
@@ -278,6 +285,11 @@ footer {
     #oyt-titulo {
         font-size: 40px;
     }
+    #oyt-imagen-principal {
+        padding: 5px 0px 5px 0px;
+        width: 100%;
+        height: 350px;
+    }
     
     /* OYT CUERPO MEDICO */
     .oyt-profesionales-nombres {
@@ -290,6 +302,61 @@ footer {
     #oyt-turnos {
         margin: 20px 250px 160px 250px;
         border: solid 20px rgb(29, 105, 124);
+    }
+    #oyt-turnos-imagen {
+        width: 55%;
+        padding: 0px 0px 30px 15px;
+    }
+}
+@media (min-width: 1044px) {
+    
+    /* OYT MENU */
+    .oyt-logo-clinica {
+        width: 5%;
+    }
+    .oyt-menu {
+        font-size: 23px;
+    }
+    .oyt-menu-lista-servicios {
+        font-size: 20px;
+    }
+
+    /* OYT INTRODUCCION */
+    #oyt-titulo {
+        font-size: 46px;
+    }
+    #oyt-imagen-principal {
+        width: 100%;
+        height: 500px;
+    }
+    #oyt-introducción {
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    /* OYT SUBESPECIALIDADES */
+    .oyt-subtitulos {
+        font-size: 36px;
+    }
+    #oyt-subespecialidades-lista {
+        font-size: 20px;
+    }
+
+    /* OYT CUERPO MEDICO */
+    .oyt-profesionales-nombres {
+        font-size: 22px;
+    }
+    .oyt-profesionales-especialidad {
+        font-size: 18px;
+    }
+    
+    /* OYT TURNOS */
+    #oyt-turnos {
+        margin: 20px 250px 160px 250px;
+        border: solid 20px rgb(29, 105, 124);
+    }
+    #oyt-turnos-contenido {
+        font-size: 25px;
     }
     #oyt-turnos-imagen {
         width: 55%;
