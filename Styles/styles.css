@@ -17,7 +17,7 @@
     justify-content: space-between;
     /*background-color: rgb(12 11 10);
     color: white;*/
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
     padding: 5px 10px 5px 10px ;
 }
@@ -55,7 +55,7 @@
     width: 190px;
     transform: translate(-20px);
     /*background-color: rgb(12 11 10);*/
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
 }
 .oyt-menu-lista-servicios li:hover {
@@ -69,7 +69,7 @@
 /* OYT MAIN */
 #oyt-main {
     padding: 20px 0px 20px 0px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 /* OYT INTRODUCCION*/
 #oyt-titulo {
@@ -199,7 +199,7 @@ footer {
 /* INICIO */
 #inicio-imagen-principal {
     width: 100%;
-    height: 550px;
+    height: 120px;
 
 }
 
@@ -269,6 +269,11 @@ footer {
     .oyt-turnos-logos {
         width: 6%;
     }
+
+    /* INICIO */
+    #inicio-imagen-principal {
+    height: 250px;
+    }
 }
 
 
@@ -313,6 +318,11 @@ footer {
     #oyt-turnos-imagen {
         width: 55%;
         padding: 0px 0px 30px 15px;
+    }
+
+    /* INICIO */
+    #inicio-imagen-principal {
+        height: 350px;
     }
 }
 @media (min-width: 1044px) {
@@ -368,5 +378,10 @@ footer {
     #oyt-turnos-imagen {
         width: 55%;
         padding: 0px 0px 30px 15px;
+    }
+
+    /* INICIO */
+    #inicio-imagen-principal {
+        height: 500px;
     }
 }
