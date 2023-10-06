@@ -73,13 +73,13 @@
     height: 120px;
 
 }
-#clinica-introduccion {
+.clinica-introduccion {
     padding: 20px 10px 20px 10px;
     font-size: 15px;
     text-align: center;  
 }
 
-/* SUBESPECIALIDADES-CONTACTO */
+/* SUBESPECIALIDADES */
 .clinica-subtitulos {
     padding: 10px;
     font-size: 22px;
@@ -89,6 +89,18 @@
 #clinica-subespecialidades-lista {
     padding: 10px 40px 20px 40px;
     font-size: 15px;
+}
+
+/* PORTAL DE PACIENTES */
+.portal-pacientes {
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 80px;
+}
+#inicio-sesion {
+    color: black;
+    display: flex;
+    justify-content: center;
+
 }
 
 /* OYT FOOTER */
@@ -227,7 +239,7 @@ footer {
     #inicio-imagen-principal {
         height: 250px;
     }
-    #clinica-introduccion {
+    .clinica-introduccion {
         padding: 20px;
         font-size: 17px;
     }
@@ -347,7 +359,7 @@ footer {
     #clinica-titulo {
         font-size: 46px;
     }
-    #clinica-introduccion {
+    .clinica-introduccion {
         padding: 25px;
         font-size: 20px;
     }
