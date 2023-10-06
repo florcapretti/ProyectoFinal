@@ -62,7 +62,7 @@
 
 /* INTRODUCCIÓN */
 
-#clinica-titulo {
+.clinica-titulo {
     padding: 20px 15px 20px 15px;
     font-size: 26px;
     color:rgb(29, 105, 124);
@@ -96,7 +96,7 @@
     padding: 20px 10px 20px 10px;
     margin-bottom: 80px;
 }
-#inicio-sesion {
+.links-acceso {
     color: black;
     display: flex;
     justify-content: center;
@@ -145,6 +145,35 @@ footer {
     margin-right: 10px;
 }
 
+/* INICIO DE SESIÓN Y REGISTRO */
+
+.formulario-box {
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 350px;
+    background-color: rgb(169, 222, 236);
+    border-radius: 20px;
+}
+.formulario-elementos {
+    margin: 10px;
+}
+.formulario-elementos label {
+    margin-right: 5px;
+}
+.formulario-elementos input {
+    border-radius: 20px;
+    padding: 3px 5px 3px 5px;
+}
+.botones {
+    background-color: rgb(29, 105, 124);
+    color: white;
+    cursor: pointer;
+}
 
 /* ORTOPEDIA Y TRAUMATOLOGÍA */
 
@@ -233,7 +262,7 @@ footer {
     }
     
     /* INTRODUCCIÓN */
-    #clinica-titulo {
+    .clinica-titulo {
         font-size: 34px; 
     }
     #inicio-imagen-principal {
@@ -308,7 +337,7 @@ footer {
     }
     
     /* INTRODUCCIÓN */
-    #clinica-titulo {
+    .clinica-titulo {
         font-size: 40px;
     }
     #inicio-imagen-principal {
@@ -356,7 +385,7 @@ footer {
     }
 
     /* INTRODUCCIÓN */
-    #clinica-titulo {
+    .clinica-titulo {
         font-size: 46px;
     }
     .clinica-introduccion {
