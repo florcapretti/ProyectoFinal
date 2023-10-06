@@ -6,10 +6,10 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-/* ORTOPEDIA Y TRAUMATOLOGÍA */
+/* PÁGINA INICIAL */
 
-/* OYT MENÚ */
-.oyt-menu {
+/* MENÚ */
+.clinica-menu {
     width: 100%;
     height: 70px;
     font-size: 13px;
@@ -19,80 +19,134 @@
     color: black;
     padding: 5px 10px 5px 10px ;
 }
-.oyt-logo-clinica {
+.logo-clinica {
     padding: 5px;
     width: 20%;
 }
-.oyt-menu li a {
+.clinica-menu li a {
     color: black;
 }
-.oyt-menu-lista-principal {
+.menu-lista-principal {
     display: flex;
     align-items: center;
 }
-.oyt-menu-lista-principal li {
+.menu-lista-principal li {
     padding: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-.oyt-menu-lista-principal li:hover {
+.menu-lista-principal li:hover {
     background-color: rgb(169, 222, 236);
 }
-.oyt-menu-servicios {
+.menu-servicios {
     position: relative;
 }
-.oyt-menu-lista-servicios {
+.menu-lista-servicios {
     display: none;
     position: absolute;
     padding: 5px;
     font-size: 11px;
 }
-.oyt-menu-lista-servicios li {
+.menu-lista-servicios li {
     width: 190px;
     transform: translate(-20px);
     background-color: white;
     text-align: center;
 }
-.oyt-menu-lista-servicios li:hover {
+.menu-lista-servicios li:hover {
     background-color: rgb(169, 222, 236);
 }
-.oyt-menu-servicios:hover .oyt-menu-lista-servicios {
+.menu-servicios:hover .menu-lista-servicios {
     display: block;
 }
+
+/* INTRODUCCIÓN */
+
+#clinica-titulo {
+    padding: 20px 15px 20px 15px;
+    font-size: 26px;
+    color:rgb(29, 105, 124);
+    text-align: center;   
+}
+#inicio-imagen-principal {
+    width: 100%;
+    height: 120px;
+
+}
+#clinica-introduccion {
+    padding: 20px 10px 20px 10px;
+    font-size: 15px;
+    text-align: center;  
+}
+
+/* SUBESPECIALIDADES-CONTACTO */
+.clinica-subtitulos {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#clinica-subespecialidades-lista {
+    padding: 10px 40px 20px 40px;
+    font-size: 15px;
+}
+
+/* OYT FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #121110;
+    color: #dfd8d8;
+    padding: 20px 15px;
+    font-size: 0.9rem;
+}
+.f-logo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.f-logo img {
+    width: 60px;
+}
+.f-logo div {
+    display: flex;
+    flex-direction: column;
+}
+.f-info ul {
+    padding-left: 8px;
+    margin-top: 30px;
+}
+.f-info ul a {
+    color: #dfd8d8;
+}
+.f-info ul a li i {
+    margin-right: 10px;
+}
+.f-social ul {
+    display: flex;
+}
+.f-social ul a {
+    margin-right: 10px;
+}
+
+
+/* ORTOPEDIA Y TRAUMATOLOGÍA */
 
 /* OYT MAIN */
 #oyt-main {
     padding: 20px 0px 20px 0px;
     background-color: white;
 }
+
 /* OYT INTRODUCCIÓN */
-#oyt-titulo {
-    padding: 20px 15px 20px 15px;
-    font-size: 26px;
-    color:rgb(29, 105, 124);
-    text-align: center;   
-}
 #oyt-imagen-principal {
     padding: 5px 0px 5px 0px;
     width: 100%;
     height: 120px;
-}
-#oyt-introduccion {
-    padding: 20px 10px 20px 10px;
-    font-size: 15px;
-    text-align: center;  
-}
-
-/* OYT SUBESPECIALIDADES */
-.oyt-subtitulos {
-    padding: 10px;
-    font-size: 22px;
-    text-align: center;
-}
-
-#oyt-subespecialidades-lista {
-    padding: 10px 40px 20px 40px;
-    font-size: 15px;
 }
 
 /* OYT CUERPO MÉDICO */
@@ -148,95 +202,54 @@
     padding-right: 5px;
 }
 
- /* OYT FOOTER */
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    background-color: #121110;
-    color: #dfd8d8;
-    padding: 20px 15px;
-    font-size: 0.9rem;
-}
-.f-logo {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-.f-logo img {
-    width: 60px;
-}
-.f-logo div {
-    display: flex;
-    flex-direction: column;
-}
-.f-info ul {
-    padding-left: 8px;
-    margin-top: 30px;
-}
-.f-info ul a {
-    color: #dfd8d8;
-}
-.f-info ul a li i {
-    margin-right: 10px;
-}
-.f-social ul {
-    display: flex;
-}
-.f-social ul a {
-    margin-right: 10px;
-}
-
-/* INICIO */
-#inicio-imagen-principal {
-    width: 100%;
-    height: 120px;
-
-}
 
 @media (min-width: 640px ) {
     
-    /* OYT MENÚ */
-    .oyt-logo-clinica {
+    /* MENÚ */
+    .logo-clinica {
         width: 10%;
     }
-    .oyt-menu {
+    .clinica-menu {
         font-size: 17px;
         padding-right: 20px;
     }
-    .oyt-menu-lista-principal li {
+    .menu-lista-principal li {
         padding: 10px;
     }
-    .oyt-menu-lista-servicios {
+    .menu-lista-servicios {
         font-size: 15px;
     }
     
-    /* OYT INTRODUCCIÓN */
-    #oyt-titulo {
+    /* INTRODUCCIÓN */
+    #clinica-titulo {
         font-size: 34px; 
     }
-    #oyt-imagen-principal {
+    #inicio-imagen-principal {
         height: 250px;
     }
-    #oyt-introduccion {
+    #clinica-introduccion {
         padding: 20px;
         font-size: 17px;
     }
     
-    /* OYT SUBESPECIALIDADES */
-    .oyt-subtitulos {
+    /* SERVICIOS-CONTACTO */
+    .clinica-subtitulos {
         font-size: 30px;
     }
-    #oyt-subespecialidades-lista {
+    #clinica-subespecialidades-lista {
         font-size: 17px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    /* ORTOPEDIA Y TRAUMATOLOGÍA */
+    
+    /* OYT INTRODUCCIÓN */
+    #oyt-imagen-principal {
+        height: 250px;
+    }
+    
     /* OYT CUERPO MÉDICO */
     #oyt-profesionales {
         display: grid;
@@ -263,34 +276,36 @@ footer {
     .oyt-turnos-logos {
         width: 6%;
     }
-
-    /* INICIO */
-    #inicio-imagen-principal {
-    height: 250px;
-    }
 }
 
 
 @media (min-width: 1024px) {
     
-    /* OYT MENÚ */
-    .oyt-logo-clinica {
+    /* MENÚ */
+    .logo-clinica {
         width: 7%;
     }
-    .oyt-menu {
+    .clinica-menu {
         font-size: 20px;
     }
-    .oyt-menu-lista-principal li {
+    .menu-lista-principal li {
         padding: 15px;
     }
-    .oyt-menu-lista-servicios {
+    .menu-lista-servicios {
         font-size: 18px;
     }
     
-    /* OYT INTRODUCCIÓN */
-    #oyt-titulo {
+    /* INTRODUCCIÓN */
+    #clinica-titulo {
         font-size: 40px;
     }
+    #inicio-imagen-principal {
+        height: 350px;
+    }
+    
+    /* ORTOPEDIA Y TRAUMATOLOGÍA */
+
+    /* OYT INTRODUCCIÓN */
     #oyt-imagen-principal {
         padding: 5px 0px 5px 0px;
         width: 100%;
@@ -313,44 +328,47 @@ footer {
         width: 55%;
         padding: 0px 0px 30px 15px;
     }
-
-    /* INICIO */
-    #inicio-imagen-principal {
-        height: 350px;
-    }
 }
+
 @media (min-width: 1044px) {
     
-    /* OYT MENÚ */
-    .oyt-logo-clinica {
+    /* MENÚ */
+    .logo-clinica {
         width: 5%;
     }
-    .oyt-menu {
+    .clinica-menu {
         font-size: 23px;
     }
-    .oyt-menu-lista-servicios {
+    .menu-lista-servicios {
         font-size: 20px;
     }
 
-    /* OYT INTRODUCCIÓN */
-    #oyt-titulo {
+    /* INTRODUCCIÓN */
+    #clinica-titulo {
         font-size: 46px;
     }
-    #oyt-imagen-principal {
-        width: 100%;
-        height: 500px;
-    }
-    #oyt-introduccion {
+    #clinica-introduccion {
         padding: 25px;
         font-size: 20px;
     }
+    #inicio-imagen-principal {
+        height: 500px;
+    }
 
-    /* OYT SUBESPECIALIDADES */
-    .oyt-subtitulos {
+    /* SERVICIOS-CONTACTO */
+    .clinica-subtitulos {
         font-size: 36px;
     }
-    #oyt-subespecialidades-lista {
+    #clinica-subespecialidades-lista {
         font-size: 20px;
+    }
+
+    /* ORTOPEDIA Y TRAUMATOLOGÍA */
+
+    /* OYT INTRODUCCIÓN */
+    #oyt-imagen-principal {
+        width: 100%;
+        height: 500px;
     }
 
     /* OYT CUERPO MÉDICO */
@@ -372,10 +390,5 @@ footer {
     #oyt-turnos-imagen {
         width: 55%;
         padding: 0px 0px 30px 15px;
-    }
-
-    /* INICIO */
-    #inicio-imagen-principal {
-        height: 500px;
     }
 }
