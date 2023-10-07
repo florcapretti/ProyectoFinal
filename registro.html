@@ -15,24 +15,24 @@
         <h2>Registro</h2>
         <div>
             <div class="formulario-elementos">
-                <input type="text" placeholder="Nombre y apellido" required>
+                <input id="name" type="text" placeholder="Nombre y apellido" required>
             </div>
             <div class="formulario-elementos">
-                <input type="text" placeholder="Número de documento" required>
+                <input id="dni" type="number" placeholder="Número de documento" required>
             </div>
             <div class="formulario-elementos">
-                <input type="text" placeholder="Obra social" required>
+                <input id="os" type="text" placeholder="Obra social" required>
             </div>
             <div class="formulario-elementos">
-                <input type="text" placeholder="Contraseña" required>
+                <input id="password" type="text" placeholder="Contraseña" required>
             </div>
             <div class="formulario-elementos">
-                <input class="botones" type="submit" value="Registrarse">
+                <input  class="botones" type="submit" value="Registrarse" onclick="register()">
             </div>
         </div>
-        
+        <div id="register"></div>
+        <div id="errors"></div>
     </main>
-
     <script src="Styles/script.js"></script>
 </body>
 </html>

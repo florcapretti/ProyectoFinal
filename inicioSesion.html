@@ -24,12 +24,13 @@
                 <input id="password" type="text" placeholder="Contraseña" required>
             </div>
             <div class="formulario-elementos">
-                <input class="botones" type="submit" value="Iniciar sesión">
+                <button class="botones" type="submit" onclick="login()">Iniciar sesión</button>
             </div>
             <div class="formulario-elementos">
-                <a type="button" href="registro.html" target="_blank">Registrarse</a>
+                <a type="button" href="registro.html" target="_blank" onclick="login()">Registrarse</a>
             </div>
         </div>
+        <div id="errors"></div>
         
     </main>
     <script src="Styles/script.js"></script>
