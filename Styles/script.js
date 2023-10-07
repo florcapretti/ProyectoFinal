@@ -29,7 +29,7 @@ function login() {
   
     if (name.length < 3) {
       document.getElementById("errors").innerText =
-        "La cantidad de letras debe ser mayor a 3";
+        "El nombre debe contener mas de 3 letras";
       return;
     }
     let data = {
