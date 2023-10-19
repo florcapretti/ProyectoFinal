@@ -155,13 +155,13 @@ footer {
 }
 .formulario-box {
     margin: 40px;
-    padding: 10px;
+    padding: 30px 10px 30px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 70%;
-    height: 350px;
+    width: 80%;
+    height: 380px;
     background-color: rgb(169, 222, 236);
     border-radius: 20px;
 }
@@ -175,10 +175,17 @@ footer {
     border-radius: 20px;
     padding: 5px;
 }
+.titulo-formulario {
+    padding-bottom: 10px;
+    font-size: 24px;
+}
 .botones {
     background-color: rgb(36, 126, 149);
     color: white;
     cursor: pointer;
+}
+.mensajes {
+    font-size: 13px
 }
 
 /* ORTOPEDIA Y TRAUMATOLOGÍA */
@@ -290,11 +297,25 @@ footer {
         align-items: center;
     }
 
+    /* PORTAL DE PACIENTES */
+    .links-acceso {
+        font-size: 17px;
+    }
+
     /* INICIO DE SESIÓN Y REGISTRO */
 
     .formulario-box {
-        width: 50%;
-        height: 300px;
+        width: 40%;
+        height: 400px;
+    }
+    .formulario-elementos input {
+        padding: 7px;
+    }
+    .titulo-formulario {
+        font-size: 26px;
+    }
+    .mensajes {
+        font-size: 15px
     }
 
     /* ORTOPEDIA Y TRAUMATOLOGÍA */
@@ -356,6 +377,19 @@ footer {
     #inicio-imagen-principal {
         height: 350px;
     }
+
+    /* INICIO DE SESIÓN Y REGISTRO */
+
+    .formulario-box {
+        width: 30%;
+        height: 430px;
+    }
+    .formulario-elementos input {
+        padding: 8px;
+    }
+    .titulo-formulario {
+        font-size: 30px;
+    }
     
     /* ORTOPEDIA Y TRAUMATOLOGÍA */
 
@@ -416,11 +450,29 @@ footer {
     #clinica-subespecialidades-lista {
         font-size: 20px;
     }
+    
+    /* PORTAL DE PACIENTES */
+    .links-acceso {
+        font-size: 20px;
+    }
+
     /* INICIO DE SESIÓN Y REGISTRO */
 
     .formulario-box {
         width: 30%;
+        height: 470px;
     }
+    .formulario-elementos input {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .titulo-formulario {
+        font-size: 34px;
+    }
+    .mensajes {
+        font-size: 18px
+    }
+
 
     /* ORTOPEDIA Y TRAUMATOLOGÍA */
 
