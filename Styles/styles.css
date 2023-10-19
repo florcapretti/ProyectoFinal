@@ -97,10 +97,11 @@
     margin-bottom: 80px;
 }
 .links-acceso {
-    color: black;
     display: flex;
     justify-content: center;
-
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 /* OYT FOOTER */
@@ -147,6 +148,11 @@ footer {
 
 /* INICIO DE SESIÓN Y REGISTRO */
 
+.formularios-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .formulario-box {
     margin: 40px;
     padding: 10px;
@@ -167,10 +173,10 @@ footer {
 }
 .formulario-elementos input {
     border-radius: 20px;
-    padding: 3px 5px 3px 5px;
+    padding: 5px;
 }
 .botones {
-    background-color: rgb(29, 105, 124);
+    background-color: rgb(36, 126, 149);
     color: white;
     cursor: pointer;
 }
