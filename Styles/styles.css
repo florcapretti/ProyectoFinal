@@ -96,13 +96,21 @@
     padding: 20px 10px 20px 10px;
     margin-bottom: 80px;
 }
-.links-acceso {
+#acceder {
     display: flex;
     justify-content: center;
-    color: black;
-    font-size: 15px;
+    font-size: 18px;
+    border-radius: 20px;    
+    margin: auto;
+    width: 120px;
+    background: rgb(29, 105, 124);
+    color: white;
     cursor: pointer;
+    transition: transform 150ms ease-in-out;
 }
+#acceder:hover {
+    transform: scale(1.4);
+  }
 
 /* FOOTER */
 footer {
@@ -182,6 +190,13 @@ footer ul {
 .botones {
     background-color: rgb(36, 126, 149);
     color: white;
+    cursor: pointer;
+}
+#link-registro {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
     cursor: pointer;
 }
 .mensajes {
@@ -397,6 +412,11 @@ footer ul {
     }
     #inicio-imagen-principal {
         height: 350px;
+    }
+
+    /* PORTAL DE PACIENTES */
+    #acceder {
+        font-size: 22px;
     }
 
     /* INICIO DE SESIÓN Y REGISTRO */
