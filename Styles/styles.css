@@ -202,6 +202,10 @@ footer ul {
 .mensajes {
     font-size: 13px
 }
+#user-logueado {
+    padding-left: 10px;
+    font-size: 13px;
+}
 
 /* ORTOPEDIA Y TRAUMATOLOGÍA */
 
@@ -313,7 +317,7 @@ footer ul {
     }
 
     /* PORTAL DE PACIENTES */
-    .links-acceso {
+    #link-registro {
         font-size: 17px;
     }
 
@@ -352,6 +356,9 @@ footer ul {
     }
     .mensajes {
         font-size: 15px
+    }
+    #user-logueado {
+        font-size: 15px;
     }
 
     /* ORTOPEDIA Y TRAUMATOLOGÍA */
@@ -493,7 +500,7 @@ footer ul {
     }
     
     /* PORTAL DE PACIENTES */
-    .links-acceso {
+    #link-registro {
         font-size: 20px;
     }
 
@@ -526,6 +533,9 @@ footer ul {
     }
     .mensajes {
         font-size: 18px
+    }
+    #user-logueado {
+        font-size: 18px;
     }
 
 

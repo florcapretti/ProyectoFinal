@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
   let user = JSON.parse(localStorage.getItem("userLogeado"));
   if(user){
-      document.getElementById("user-logueado").innerText = "Bienvenido "+user[0].nombre;        
+      document.getElementById("user-logueado").innerText = "Bienvenido/a "+user[0].nombre;        
   }
 });
 
