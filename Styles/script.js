@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function(event) { 
+  let user = JSON.parse(localStorage.getItem("userLogeado"));
+  if(user){
+      document.getElementById("user-logueado").innerText = "Bienvenido "+user[0].nombre;        
+  }
+});
+
 function login() {
     document.getElementById("errors").innerText = "";
     let dni = document.getElementById("dni").value;
@@ -15,10 +22,12 @@ function login() {
     if (existe) {
       localStorage.setItem("userLogeado", JSON.stringify(user));
       document.getElementById("errors").innerText = "Inicio de sesión correcto";
+      location.href = "index.html";
       return;
     }
     document.getElementById("errors").innerText =
       "Usuario o contraseña incorrectos";
+      
   }
 
   function register() {
@@ -51,6 +60,7 @@ function login() {
     if (existe == false) {
       document.getElementById("register").innerText = "Se registro el usuario";
       usuarios.push(data);
+      location.href = "inicioSesion.html";
     }
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
   }
