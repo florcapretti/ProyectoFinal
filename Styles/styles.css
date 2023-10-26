@@ -242,38 +242,6 @@ footer ul {
 .oyt-profesionales-especialidad {
     font-size: 12px;
 }
- 
-/* OYT TURNOS */
- #oyt-turnos {
-    padding: 0px 5px 20px 5px;
-    border: solid 15px rgb(29, 105, 124);
-    margin: 0px 0px 60px 0px;
-    font-size: 12px;
-    display: grid;
-    grid-template-areas: 
-    "TurnosTitulo TurnosTitulo TurnosTitulo"
-    "TurnosImagen TurnosContenido TurnosContenido"
-    "TurnosImagen TurnosContenido TurnosContenido";
-    grid-template-columns: repeat(3, 1fr);
-}
-#oyt-turnos-titulo {
-    grid-area: TurnosTitulo;
-}
-#oyt-turnos-imagen {
-    width: 65%;
-    padding: 0px 0px 5px 10px;
-    grid-area: TurnosImagen;
-}
-#oyt-turnos-contenido {
-    grid-area: TurnosContenido;
-}
-#oyt-turnos-contenido a {
-    color: black;
-    cursor: pointer;
-}
-#oyt-turnos-contenido i {
-    padding-right: 5px;
-}
 
 
 @media (min-width: 640px ) {
@@ -383,17 +351,6 @@ footer ul {
     .oyt-profesionales-fotos {
         width: 30%;
     }
-    
-    /* OYT TURNOS */
-    #oyt-turnos {
-        margin: 20px 160px 80px 160px;
-    }
-    #oyt-turnos-contenido {
-        font-size: 17px;
-    }
-    .oyt-turnos-logos {
-        width: 6%;
-    }
 }
 
 
@@ -454,15 +411,6 @@ footer ul {
     }
     .oyt-profesionales-especialidad {
         font-size: 15px;
-    }
-    /* OYT TURNOS */
-    #oyt-turnos {
-        margin: 20px 250px 160px 250px;
-        border: solid 20px rgb(29, 105, 124);
-    }
-    #oyt-turnos-imagen {
-        width: 55%;
-        padding: 0px 0px 30px 15px;
     }
 }
 
@@ -555,16 +503,4 @@ footer ul {
         font-size: 18px;
     }
     
-    /* OYT TURNOS */
-    #oyt-turnos {
-        margin: 20px 250px 160px 250px;
-        border: solid 20px rgb(29, 105, 124);
-    }
-    #oyt-turnos-contenido {
-        font-size: 25px;
-    }
-    #oyt-turnos-imagen {
-        width: 55%;
-        padding: 0px 0px 30px 15px;
-    }
 }
